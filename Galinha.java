@@ -1,4 +1,4 @@
-class Galinha extends Ave{
+class Galinha extends Fazenda implements Ave{
 	private int idade;
 	private int tamanho;
 	private boolean voar = false;
@@ -32,16 +32,16 @@ class Galinha extends Ave{
 		this.idade = idade;
 	}
 
-	public voud setTamanho(int tamanho){
+	public void setTamanho(int tamanho){
 		this.tamanho = tamanho;
 	}
 
 	public void emitirSom(){
-		if(voar == false && amamentar = true){
+		if(voar == false && amamentar == true){
 			System.out.println("Este animal muge.");
-		}else if(voar == true && amamentar = true){
+		}else if(voar == true && amamentar == true){
 			System.out.println("Este animal farfalha.");
-		}else if(voar == true && amamentar = false){
+		}else if(voar == true && amamentar == false){
 			System.out.println("Este animal grasne.");
 		}else{
 			System.out.println("Este animal carcareja.");
