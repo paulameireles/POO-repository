@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 public abstract class Fazenda{
 	// abstract porque cada animal emite um som diferente e depende do animal
 	public abstract void emitirSom();
@@ -8,6 +11,7 @@ public abstract class Fazenda{
 		Pato pato = new Pato();
 		Morcego morcego = new Morcego();
 
+		System.out.println("olá");
 		
 	}
 }

@@ -1,4 +1,4 @@
-interface Mamifero extends Fazenda{
+interface Mamifero{
 
-	public abstract void amamentar();
+	public void amamentar();
 }
