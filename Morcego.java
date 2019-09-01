@@ -7,23 +7,11 @@ class Morcego extends Fazenda implements Mamifero, Ave{
 	public Morcego(){
 		this.setIdade(0);
 		this.setTamanho(0);
-		this.setVoar(true);
-		this.setAmamentar(true);
 	}
 
-	public Morcego(int idade, int tamanho, boolean voar, boolean amamentar){
+	public Morcego(int idade, int tamanho){
 		this.setIdade(idade);
 		this.setTamanho(tamanho);
-		this.setVoar(voar);
-		this.setAmamentar(amamentar);
-	}
-
-	public boolean getAmamentar(){
-		return amamentar;
-	}
-
-	public boolean getVoar(){
-		return voar;
 	}
 
 	public int getIdade(){
@@ -32,14 +20,6 @@ class Morcego extends Fazenda implements Mamifero, Ave{
 
 	public int getTamanho(){
 		return tamanho;
-	}
-
-	public void setAmamentar(boolean amamentar){
-		this.amamentar = amamentar;
-	}
-
-	public void setVoar(boolean voar){
-		this.voar = voar;
 	}
 
 	public void setIdade(int idade){
@@ -76,5 +56,13 @@ class Morcego extends Fazenda implements Mamifero, Ave{
 		}else{
 			System.out.println("Este animal não pode voar.");
 		}
+	}
+
+	public void imprimir(){
+		System.out.println("Idade do morcego: " + this.idade);
+		System.out.println("Tamanho do morcego: " + this.tamanho);
+		amamentar();
+		voar();
+		emitirSom();
 	}
 }
