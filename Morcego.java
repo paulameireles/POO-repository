@@ -1,4 +1,4 @@
-class Morcego extends Mamifero implements Ave{
+class Morcego extends Fazenda implements Mamifero, Ave{
 	private int idade;
 	private int tamanho;
 	private boolean voar = true;
@@ -54,16 +54,16 @@ class Morcego extends Mamifero implements Ave{
 		if(amamentar == true){
 			System.out.println("Este animal pode amamentar.");
 		}else{
-			System.out.println("Este animal não pode amamentar.")
+			System.out.println("Este animal não pode amamentar.");
 		}
 	}
 
 	public void emitirSom(){
-		if(voar == false && amamentar = true){
+		if(voar == false && amamentar == true){
 			System.out.println("Este animal muge.");
-		}else if(voar == true && amamentar = true){
+		}else if(voar == true && amamentar == true){
 			System.out.println("Este animal farfalha.");
-		}else if(voar == true && amamentar = false){
+		}else if(voar == true && amamentar == false){
 			System.out.println("Este animal grasne.");
 		}else{
 			System.out.println("Este animal carcareja.");
