@@ -4,13 +4,16 @@ class Galinha extends Fazenda implements Ave{
 	private boolean voar = false;
 	private boolean amamentar = false;
 
-	public boolean getAmamentar(){
-		return amamentar;
+	public Galinha(){
+		this.setIdade(0);
+		this.setTamanho(0);
 	}
 
-	public boolean getVoar(){
-		return voar;
+	public Galinha(int idade, int tamanho){
+		this.setIdade(idade);
+		this.setTamanho(tamanho);
 	}
+
 
 	public int getIdade(){
 		return idade;
@@ -20,20 +23,12 @@ class Galinha extends Fazenda implements Ave{
 		return tamanho;
 	}
 
-	public void setAmamentar(boolean amamentar){
-		this.amamentar = amamentar;
-	}
-
-	public void setVoar(boolean voar){
-		this.voar = voar;
+	public void setTamanho(int tamanho){
+		this.tamanho = tamanho;
 	}
 
 	public void setIdade(int idade){
 		this.idade = idade;
-	}
-
-	public void setTamanho(int tamanho){
-		this.tamanho = tamanho;
 	}
 
 	public void emitirSom(){
@@ -54,5 +49,12 @@ class Galinha extends Fazenda implements Ave{
 		}else{
 			System.out.println("Este animal não pode voar.");
 		}
+	}
+
+	public void imprimir(){
+		System.out.println("Idade da galinha: " + this.idade);
+		System.out.println("Tamanho da galinha: " + this.tamanho);
+		voar();
+		emitirSom();
 	}
 }
