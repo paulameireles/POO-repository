@@ -4,6 +4,17 @@ class Vaca extends Fazenda implements Mamifero{
 	private boolean voar = false;
 	private boolean amamentar = true;
 
+	public Vaca(){
+		this.setIdade(0);
+		this.setTamanho(0);
+	}
+
+	public Vaca(int idade, int tamanho){
+		this.setIdade(idade);
+		this.setTamanho(tamanho);
+	}
+
+
 	public int getTamanho(){
 		return tamanho;
 	}
@@ -46,5 +57,12 @@ class Vaca extends Fazenda implements Mamifero{
 		}else{
 			System.out.println("Este animal não pode voar.");
 		}
+	}
+
+	public void imprimir(){
+		System.out.println("Idade da vaca: " + this.idade);
+		System.out.println("Tamanho da vaca: " + this.tamanho);
+		amamentar();
+		emitirSom();
 	}
 }
