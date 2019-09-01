@@ -4,6 +4,17 @@ public class Pato extends Fazenda implements Ave{
 	private boolean voar = true;
 	private boolean amamentar = false;
 
+	public Pato(){
+		this.setIdade(0);
+		this.setTamanho(0);
+	}
+
+	public Pato(int idade, int tamanho){
+		this.setIdade(idade);
+		this.setTamanho(tamanho);
+	}
+
+
 	public int getIdade(){
 		return idade;
 	}
@@ -38,5 +49,12 @@ public class Pato extends Fazenda implements Ave{
 		}else{
 			System.out.println("Este animal não pode voar.");
 		}
+	}
+
+	public void imprimir(){
+		System.out.println("Idade do pato: " + this.idade);
+		System.out.println("Tamanho do pato: " + this.tamanho);
+		voar();
+		emitirSom();
 	}
 }
