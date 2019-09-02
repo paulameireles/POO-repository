@@ -15,7 +15,7 @@ Bem, é tranquilo. Nesse repositório você poderá ver classes interagindo entr
 **E como executar os arquivos?**
 
 Você terá que colocar todos os arquivos em uma mesma pasta e abrir essa pasta no terminal. Depois disso digitamos:
-> javac Fazenda.java.
+> javac Fazenda.java
 
 **O programa irá compilar, logo depois:**
 > java Fazenda
