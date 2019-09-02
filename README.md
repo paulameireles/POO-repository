@@ -8,4 +8,6 @@ Como diria um antigo mestre:
 
 **E como consigo fazer isso?**
 
-Bem, é tranquilo. Nesse repositório você poderá ver classes interagindo entre sí e ter tudo explicadinho para entender tudo o que está acontecendo.
+Bem, é tranquilo. Nesse repositório você poderá ver classes interagindo entre sí e ver tudo o que está acontecendo.
+
+![Diagrama de Classe UML (1)](https://user-images.githubusercontent.com/37883018/64086552-596c8b00-cd0f-11e9-9de7-6101b9be10bd.jpeg)
