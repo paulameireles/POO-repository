@@ -13,8 +13,11 @@ Bem, é tranquilo. Nesse repositório você poderá ver classes interagindo entr
 ![Diagrama de Classe UML (1)](https://user-images.githubusercontent.com/37883018/64086552-596c8b00-cd0f-11e9-9de7-6101b9be10bd.jpeg)
 
 **E como executar os arquivos?**
+
 Você terá que colocar todos os arquivos em uma mesma pasta e abrir essa pasta no terminal. Depois disso digitamos:
-> javac Fazenda.java
-O programa irá compilar, logo depois:
+> javac Fazenda.java.
+
+**O programa irá compilar, logo depois:**
 > java Fazenda
+
 **gora só falta digitar o que pedir e finally done!**
