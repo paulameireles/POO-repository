@@ -17,4 +17,4 @@ Você terá que colocar todos os arquivos em uma mesma pasta e abrir essa pasta 
 > javac Fazenda.java
 O programa irá compilar, logo depois:
 > java Fazenda
-Agora só falta digitar o que pedir e finally done!
+**gora só falta digitar o que pedir e finally done!**
