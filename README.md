@@ -20,4 +20,4 @@ Você terá que colocar todos os arquivos em uma mesma pasta e abrir essa pasta 
 **O programa irá compilar, logo depois:**
 > java Fazenda
 
-**gora só falta digitar o que pedir e finally done!**
+**Agora só falta digitar o que pedir e finally done!**
